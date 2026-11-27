@@ -54,8 +54,8 @@ with st.sidebar:
     st.markdown("5. Schedule")
     st.divider()
     st.caption(
-        "API credentials are read from the local .env file and are not "
-        "displayed in the dashboard."
+        "API credentials are read from environment variables or Streamlit "
+        "secrets and are not displayed in the dashboard."
     )
 
 st.session_state.setdefault("stage_outputs", {})

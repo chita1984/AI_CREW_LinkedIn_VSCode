@@ -1,0 +1,6 @@
+crewai[google-genai,chromadb]>=1.15.0,<2.0.0
+crewai-tools>=1.15.0,<2.0.0
+python-dotenv>=1.0.1,<2.0.0
+requests>=2.32.0,<3.0.0
+beautifulsoup4>=4.12.3,<5.0.0
+streamlit>=1.40.0,<2.0.0
